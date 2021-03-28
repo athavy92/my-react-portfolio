@@ -11,8 +11,9 @@ export default function Home() {
     <main>
       <img src={backgroundImages[0]} alt="charlotte-background" about="Image acquired from unsplash" className="absolute object-cover w-full h-full"/>
       <section className="relative flex justify-center min-h-screen pt-4 lg:pt-14 px8 flex-wrap">
-        <h1 className="text-4xl text-white cursive leading-none lg:leading-snug home-name">Welcome To My Portfolio</h1>  
-        <h2 className="text-sm text-white">Built using React and Sanity</h2>
+        <h1 className="text-7xl text-white cursive leading-none lg:leading-snug home-name">Welcome To My Portfolio </h1>  
+        <h2 className="text-sm font-thin text-white">Built using React and Sanity</h2>
+        
       </section>
     </main>
   )
